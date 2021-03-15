@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus-1", "Bonus-1\Bonus-1.csproj", "{BF0CFC89-E6EF-4BBE-B525-06A20ACDCF32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus-1test", "Bonus-1test\Bonus-1test.csproj", "{E478FC5F-ACD6-48DE-848A-A8818F8F0203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0CFC89-E6EF-4BBE-B525-06A20ACDCF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0CFC89-E6EF-4BBE-B525-06A20ACDCF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0CFC89-E6EF-4BBE-B525-06A20ACDCF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0CFC89-E6EF-4BBE-B525-06A20ACDCF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E478FC5F-ACD6-48DE-848A-A8818F8F0203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E478FC5F-ACD6-48DE-848A-A8818F8F0203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E478FC5F-ACD6-48DE-848A-A8818F8F0203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E478FC5F-ACD6-48DE-848A-A8818F8F0203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B34563FA-28BA-4A11-9053-5C9E4AED45CD}
+	EndGlobalSection
+EndGlobal
