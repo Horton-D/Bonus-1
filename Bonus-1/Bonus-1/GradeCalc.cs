@@ -12,11 +12,6 @@ namespace Bonus_1
         public string LetterGrade(int grades)
         {
 
-            Console.WriteLine("Welcome to Letter Grade Converter");
-
-            string response;
-            do
-            {
                 
                 if (grades <= 100 && grades >= 88)
                 {
@@ -34,6 +29,7 @@ namespace Bonus_1
                 else if (grades <= 60 && grades >= 60)
                 {
                     return "Letter grade: D";
+                   
                 }
                 else
                 {
@@ -42,11 +38,10 @@ namespace Bonus_1
                     
                 }
 
-                
+               
 
 
-            } while (response.Equals("y",StringComparison.OrdinalIgnoreCase));
-
+           
                
         }
 

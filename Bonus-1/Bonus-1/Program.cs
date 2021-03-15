@@ -7,8 +7,17 @@ namespace Bonus_1
         static void Main(string[] args)
         {
             var grader = new GradeCalc();
+            Console.WriteLine("Welcome to Letter Grade Converter");
+            string response;
+            do
+            {
+                Console.WriteLine("Enter score!");
+                var num = int.Parse(Console.ReadLine());
+                Console.WriteLine(grader.LetterGrade(num));
+                Console.WriteLine("Continue Y/N?");
+                response = Console.ReadLine();
 
-            Console.WriteLine(grader.LetterGrade(89));
+            } while (response.Equals("y",StringComparison.OrdinalIgnoreCase));
 
         }
     }
